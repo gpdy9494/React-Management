@@ -22,8 +22,8 @@ const customers = [
 {
   'id': 3,
   'image': 'https://placeimg.com/64/64/3',
-  'name': '이상오!@@@@',
-  'birthday' : '33333333',
+  'name': '이상오',
+  'birthday' : '960720',
   'gender': '남자',
   'job': '직장인'
 }
@@ -44,7 +44,6 @@ class App extends Component {
                 birthday={c.birthday}
                 gender={c.gender}
                 job={c.job}
-
               />
             );
           })
